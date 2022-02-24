@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+.toggle {
+    height: auto !important;
+    overflow: visible !important;
+    
+}
+
+.hide {
+    display: block !important;
+    margin-bottom: 1rem;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.btn {
+    @apply py-3 px-6 shadow-md rounded transition duration-1000
+}
+
+.btn-purple {
+    @apply bg-bookmark-purple text-bookmark-white
+
+}
+
+.btn-white {
+    @apply bg-bookmark-white text-black
+}
+
+
